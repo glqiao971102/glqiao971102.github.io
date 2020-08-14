@@ -1,0 +1,115 @@
+
+body{
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.myFace{
+    border-radius: 100%;
+    width: 175px;
+    height: 220px;
+    transition: all .2s ease-in-out
+    
+}
+
+.positionHead{
+    color: white;
+}
+.contactModal{
+    color: #8ABAD3;
+}
+
+.contactModal:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.myFace:hover{
+    transform: scale(1.1);
+
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.myProject{
+    opacity: 0.0;
+    animation: fadeIn ease 2s forwards;
+
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+
+.workDone{
+    color: white;
+}
+
+.workDone:hover{
+    list-style: none;
+    color: red;
+    text-decoration: none;
+}
+  
+/* card hover */
+.card-hover:hover{
+    transform: scale(1.1);    
+
+}
+
+.jumbotron {
+    background-color: #0F4C81;
+  }
+
+.reveal {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+}
+
+.card-hover:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 10;
+    transition: opacity 1s ease;
+}
+
+.list-inline{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.list-inline li{
+
+    margin-left: 7px;
+}
+
+.myLinkedin,
+.myGmail{
+    width: 50px;
+    height: 50px;
+
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+
+}
+@media (min-width: 768px){
+
+    .positionHead{
+        font-size: 4rem;
+
+    }
+
+}
